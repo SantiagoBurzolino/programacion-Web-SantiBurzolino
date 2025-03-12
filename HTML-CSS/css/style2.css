@@ -1,21 +1,26 @@
 
 
 
-.BUTTON-custom{
+.BUTTON2-custom{
     color: firebrick;
 }
 
 
-.contenedor{
+.contenedor2{
     color: white;  /*modifica el color de la letra*/
     background-color: black;/*color de fondo*/
     font-size: 20px;/*Tamaño de letra*/
-    font-size: 60px;
+    font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: right;/*alineacion del texto*/
+    /text-align: right;/*alineacion del texto*/
     border: 2px solid black;    /*(ancho de la linea, tipo)*/
     border-radius: 10px;    /*radio del borde*/
-    width: 400px;   /*ancho*/
-    height: 200px;  /*alto*/
+    width: 800px;   /*ancho*/
+    height: 400px;  /*alto*/
+    margin-left: 300px;
 
+}
+
+.contenedor2-flexible{
+    display: flex;
 }
