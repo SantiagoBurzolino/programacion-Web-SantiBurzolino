@@ -1,0 +1,21 @@
+
+
+
+.BUTTON-custom{
+    color: firebrick;
+}
+
+
+.contenedor{
+    color: white;  /*modifica el color de la letra*/
+    background-color: black;/*color de fondo*/
+    font-size: 20px;/*Tamaño de letra*/
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;/*alineacion del texto*/
+    border: 2px solid black;    /*(ancho de la linea, tipo)*/
+    border-radius: 10px;    /*radio del borde*/
+    width: 400px;   /*ancho*/
+    height: 200px;  /*alto*/
+
+}

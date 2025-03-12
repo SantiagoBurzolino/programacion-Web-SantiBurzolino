@@ -1,0 +1,48 @@
+/*comentarios*/
+
+
+/*selectores*/
+
+/* Etiqueta */
+
+/*modificamos directamente la etiqueta a la cual estamos apuntando*/
+
+p {
+   color: #e811e8;
+}
+/*clase*/
+.BUTTON-custom{
+    color: firebrick;
+}
+
+/*ID*/
+#titulo{
+    color: aquamarine;
+}
+
+
+.contenedor{
+    color: blueviolet;  /*modifica el color de la letra*/
+    background-color: beige;/*color de fondo*/
+    font-size: 20px;/*Tamaño de letra*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;/*alineacion del texto*/
+    border: 2px solid black;    /*(ancho de la linea, tipo)*/
+    border-radius: 10px;    /*radio del borde*/
+    width: 400px;   /*ancho*/
+    height: 200px;  /*alto*/
+
+}
+
+
+.button-div{
+    padding: 10px;/*distancia desde el elemento hasta los bordes*/
+    margin: 10px;/*distancia desde los bordes hacia afuera*/
+}
+
+.contenedor-flexible{
+    display: flex;
+}
+
+
+
