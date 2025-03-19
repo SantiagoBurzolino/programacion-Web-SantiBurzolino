@@ -1,26 +1,51 @@
+.contenedor2 {
+    width: 400px; /* Ajusta el ancho según sea necesario */
+    border: 15px solid #000000;
+   
+    display: flex; /* Usamos flexbox para organizar los elementos */
+    align-items: center; /* Alinea verticalmente los elementos */
+    border-radius: 10px;
+}
 
+.foto-perfil {
+    width:40% ; /* Ajusta el tamaño de la imagen */
+    
+    border-radius: 50%; /* Hace la imagen circular */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    border-radius: 10px;
+}
 
+.info-usuario {
+    text-align: center; /* Alinea el texto a la izquierda */
+    margin-top: -10px;
+}
 
-.BUTTON2-custom{
-    color: firebrick;
+.estado {
+    margin-top: -25px; /* Espacio entre el nombre y el estado */
+    background-color: gray;
+}
+
+.circulo-verde {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 5px; /* Espacio entre el círculo y el texto */
 }
 
 
-.contenedor2{
-    color: white;  /*modifica el color de la letra*/
-    background-color: black;/*color de fondo*/
-    font-size: 20px;/*Tamaño de letra*/
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    /text-align: right;/*alineacion del texto*/
-    border: 2px solid black;    /*(ancho de la linea, tipo)*/
-    border-radius: 10px;    /*radio del borde*/
-    width: 800px;   /*ancho*/
-    height: 400px;  /*alto*/
-    margin-left: 300px;
+p h2{
+    margin: 0;
+}
+/* ... tu CSS anterior ... */
 
+.info-adicional {
+    color: gray; /* Texto en gris */
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    /*margin: 5px 0; /* Espacio entre las líneas */
+    margin-bottom: 8px;
 }
 
-.contenedor2-flexible{
-    display: flex;
+.valor {
+    color: black; /* Texto negro para los valores */
 }
