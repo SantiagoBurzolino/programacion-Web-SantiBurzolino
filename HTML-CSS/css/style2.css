@@ -1,7 +1,6 @@
 .contenedor2 {
     width: 400px; /* Ajusta el ancho según sea necesario */
     border: 15px solid #000000;
-   
     display: flex; /* Usamos flexbox para organizar los elementos */
     align-items: center; /* Alinea verticalmente los elementos */
     border-radius: 10px;
