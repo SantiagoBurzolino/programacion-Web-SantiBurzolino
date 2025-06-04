@@ -45,7 +45,7 @@ const asyncFunction = async () => {
     console.log("error", error);
   }
 };
-asyncFunction(); // para ejecutar una funcion debemos llamala
+asyncFunction(); // para ejecutar una funcion debemos llamarla
 // y por parentesis y ; al final
 
 // funcion regular asincrona
