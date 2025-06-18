@@ -1,0 +1,36 @@
+los componentes cuando se declaran siempre
+arrancan con mayuscula la primera letra.
+los archivos tienen la extencion llamada jsx = javascript x
+ya no mas js y html
+css si
+<> </> no impactan en el seo pero <> sirve para abrir y la de </> sirve para cerrar.
+
+las dependencias son para desarrollar la pagina
+
+dependencias de desarrollo son dependencias que nos ayudan
+a nosotros como programadores a desarrollar una pagina
+
+el index.html no se toca se queda como esta.
+
+no se toca tampoco el main.jsx y si lo
+modificamos que tambien sea en el html.
+
+es muy raro codigo dentro de main.jsx
+
+el eslint.config.js no da todos los errores x ejemplo cual pongamos nosotros
+por ejemplo que de errores x poner comillas simples no cuando sea comillas.
+
+el gitignore:
+
+el css el mas generico mas bot se importa en main.jsx se escribe import entre comillas la ruta del archivo.
+
+"export default Usuario;" export no nombrado o default
+
+los props son valores que le podemos pasar a los componentes para que los tomen y lo usen para realizar una accion.
+
+hooks = ganchos los hooks siempre arrancan con siempre con "use"...
+
+la dependencia es una
+
+el useState sirve para guardar datos en la variable
+tiene una variable y una funcion actualizable.
