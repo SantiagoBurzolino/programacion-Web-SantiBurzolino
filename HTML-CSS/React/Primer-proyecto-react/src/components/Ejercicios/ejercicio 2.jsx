@@ -1,8 +1,6 @@
 import { useState } from "react";
-import "./App.css";
-import { Ejercicio1 } from "./components/Ejercicios/ejercicio 1";
 
-function App() {
+export function Ejercicio2() {
   const [nombre, setNombre] = useState("");
 
   const handleClick = () => {
@@ -23,11 +21,6 @@ function App() {
       />
       <button onClick={handleClick}>Mostrar</button>
       {nombre && <h2>{nombre}</h2>}
-
-      {nombre === "" ? <>hola</> : <>chau</>}
-      <Ejercicio1 />
     </>
   );
 }
-
-export default App;
