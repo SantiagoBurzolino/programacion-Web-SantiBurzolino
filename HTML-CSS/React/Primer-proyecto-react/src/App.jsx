@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import { Ejercicio1 } from "./components/Ejercicios/ejercicio 1";
+import { Persona } from "./components/Context Personas/Persona";
 
 function App() {
   const [nombre, setNombre] = useState("");
@@ -26,6 +27,7 @@ function App() {
 
       {nombre === "" ? <>hola</> : <>chau</>}
       <Ejercicio1 />
+      <Persona nombre={"pepito"}/>
     </>
   );
 }
