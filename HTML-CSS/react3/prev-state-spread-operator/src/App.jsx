@@ -31,7 +31,7 @@ function App() {
 
   //Agregar una propiedad al objeto persona usando operator -> 4 puntos
 
-  //
+  //Partiendo de {nombre: "pepito", edad: 30}, cambia solo el nombre a "luis" usando spread operator
   return (
     <>
       <div>
