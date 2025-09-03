@@ -10,6 +10,13 @@ function App() {
   function myFuction() {
     //setNum([...num, 7]);
 
+    function myFuction() {
+      setNum((prevNum) => {
+        const ultimoNumero = prevNum[prevNum.length - 1];
+        return [...prevNum, ultimoNumero + 1];
+      });
+    }
+
     setNum((prevNum) => {
       const ultimoNumero = prevNum[prevNum.length - 1];
       return [...num, ultimoNumero + 1];
@@ -27,6 +34,11 @@ function App() {
     console.log(persona);
   }
 
+  function cambiarNombre() {
+    const nuevaPersona = { ...persona, nombre: "Luis" };
+    setPersona(nuevaPersona);
+    console.log(nuevaPersona);
+  }
   //tarea hacer que el setNum agregue numeros consecutivos. -> 3 puntos
 
   //Agregar una propiedad al objeto persona usando operator -> 4 puntos
@@ -38,7 +50,9 @@ function App() {
         {num.map((item, index) => (
           <p>{item}</p>
         ))}
-        <button onClick={agregarPropiedad}>Agregar numero</button>
+        <button onClick={myFuction}>Agregar numero</button>
+        <button onClick={cambiarNombre}>Cambiar nombre</button>
+        <button onClick={agregarPropiedad}>agregar Propiedad</button>
       </div>
     </>
   );
